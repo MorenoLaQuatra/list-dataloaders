@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setup(
     name='list-dataloaders',
-    version='1.0.0',
+    version='1.0.1',
     description='This package contains a pure-python class that wraps a list of dataloaders and allows to iterate over them in a random order.',
     py_modules=["Downloader"],
     packages=find_packages(include=['list_dataloaders', 'list_dataloaders.*']),

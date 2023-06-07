@@ -1,6 +1,6 @@
 import random
 
-class ListDataloaders:
+class ListDataLoaders:
     """
     This class is a wrapper for a list of dataloaders. It allows to iterate over the dataloaders in a random order.
     """

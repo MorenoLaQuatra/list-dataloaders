@@ -1,4 +1,4 @@
-from list_dataloaders import ListDataloaders
+from list_dataloaders import ListDataLoaders
 import torch
 
 # create sample dataloaders
@@ -16,9 +16,9 @@ def create_dataloader(num_samples, shift_offset=0):
 
 dataloaders = [create_dataloader(5, shift_offset=0), create_dataloader(50, shift_offset=1), create_dataloader(500, shift_offset=2)]
 
-# create a ListDataloaders object
-list_dataloaders = ListDataloaders(dataloaders, verbose=True)
+# create a ListDataLoaders object
+list_dataloaders = ListDataLoaders(dataloaders, verbose=True)
 
-# iterate over the ListDataloaders object
+# iterate over the ListDataLoaders object
 for i, (x,) in enumerate(list_dataloaders):
     print(f"Dataloader index: {round(x.item())}, sample index: {i}")

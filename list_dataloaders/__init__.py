@@ -1,1 +1,1 @@
-from list_dataloaders.list_dataloaders_wrapper import ListDataloaders
+from list_dataloaders.list_dataloaders_wrapper import ListDataLoaders

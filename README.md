@@ -17,7 +17,7 @@ pip install git+https://github.com/MorenoLaQuatra/list-dataloaders.git
 ## Usage
 
 ```python
-from list_dataloaders import ListDataloaders
+from list_dataloaders import ListDataLoaders
 
 list_dataloaders = []
 train_dl1 = DataLoader(...)
